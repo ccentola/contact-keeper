@@ -31,6 +31,18 @@
     "react/no-unstable-nested-components": "warn",
     "react/jsx-props-no-spreading": "off",
     "no-undef": "warn",
-    "react/jsx-no-constructed-context-values": "off"
+    "react/jsx-no-constructed-context-values": "off",
+    "import/no-anonymous-default-export": [
+      2,
+      {
+        "allowArray": false,
+        "allowArrowFunction": true,
+        "allowAnonymousClass": false,
+        "allowAnonymousFunction": false,
+        "allowCallExpression": true, // The true value here is for backward compatibility
+        "allowLiteral": false,
+        "allowObject": false
+      }
+    ]
   }
 }
